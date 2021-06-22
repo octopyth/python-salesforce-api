@@ -43,4 +43,4 @@ class FilePreparer:
         return file_handle
 
     def get_csv_string(self) -> str:
-        return self.get_csv_file().getvalue().strip()
+        return self.get_csv_file().getvalue().strip().encode('utf-8')

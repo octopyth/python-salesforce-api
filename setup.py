@@ -20,8 +20,8 @@ PACKAGE_DATA = {'salesforce_api': data_files_inventory()}
 
 if __name__ == '__main__':
     setup(
-        name="salesforce-api",
-        version='0.1.43',
+        name="salesforce-api-hot-fix-requests",
+        version='0.1.44',
         author="Felix Lindstrom",
         author_email='felix.lindstrom@gmail.com',
         description="Salesforce API wrapper",
@@ -38,7 +38,7 @@ if __name__ == '__main__':
             'url-normalize'
         ],
         zip_safe=True,
-        url='https://github.com/felixlindstrom/python-salesforce-api',
+        url='https://github.com/octopyth/python-salesforce-api',
         classifiers=[
             'Intended Audience :: Developers',
             'License :: OSI Approved :: MIT License',
